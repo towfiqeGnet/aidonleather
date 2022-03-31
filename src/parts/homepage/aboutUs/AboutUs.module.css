@@ -1,0 +1,57 @@
+.aboutUs {
+  background-color: #e9eae8;
+  padding: 50px 0px;
+}
+
+.aboutUs h4 {
+  color: var(--text-1);
+  opacity: 0.8;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.aboutUs .leftPart p {
+  color: var(--text-1);
+  font-size: var(--fs-medium);
+  text-align: justify;
+  opacity: 0.9;
+}
+.aboutUs .leftPart h6 {
+  color: var(--text-1);
+  font-size: var(--fs-Xsmall);
+}
+.aboutUs .btnContainer {
+  background-color: var(--bg-4);
+  width: 220px;
+  height: 50px;
+  border-radius: 18px;
+  font-size: 18px;
+  color: var(--text-2);
+  margin-top: 30px;
+}
+
+.aboutUs .imgContainer {
+  /* position: relative; */
+  /* background-color: var(--bg-4);
+  height: 100%;
+  width: 100%; */
+}
+.aboutUs .imgContainer .image {
+  /* height: 210px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutUs .imgContainer .image img {
+  height: 332px;
+  width: 90%;
+}
+
+@media screen and (max-width: 992px) {
+  .aboutUs [class*="col-"] {
+    margin-bottom: 24px;
+  }
+}

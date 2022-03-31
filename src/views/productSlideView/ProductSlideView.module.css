@@ -1,0 +1,29 @@
+.productSlideView {
+  position: relative;
+  padding-right: 15px;
+}
+
+.productSlideView img {
+  width: 100%;
+  height: auto;
+}
+
+.productSlideView .details {
+  position: absolute;
+  bottom: 50px;
+  color: var(--text-2);
+  padding: 0px 50px;
+}
+.productSlideView .details p {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  .productSlideView {
+    padding: 0;
+  }
+  .productSlideView .details p {
+    font-size: 14px;
+  }
+}

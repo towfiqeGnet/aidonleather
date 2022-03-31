@@ -1,0 +1,35 @@
+.baseSlider {
+  background: var(--bg-3);
+}
+.baseSlider .singleSlide img {
+  width: 100%;
+  height: calc(100vw * (0.4));
+}
+.baseSlider .slick-slider button {
+  display: none !important;
+}
+
+.baseSlider .singleSlide:focus-visible {
+  outline: none;
+}
+.baseSlider .themeText {
+  position: absolute;
+  top: calc(7vw);
+  z-index: 1;
+  color: rgb(255 255 255 / 90%);
+  font-size: var(--fs-Xlarge);
+  font-weight: 800;
+  line-height: 18px;
+}
+@media screen and (min-width: 992px) {
+  .baseSlider .themeText {
+    line-height: 32px;
+    font-size: var(--fs-2Xlarge);
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  .baseSlider .themeText {
+    line-height: 48px;
+  }
+}

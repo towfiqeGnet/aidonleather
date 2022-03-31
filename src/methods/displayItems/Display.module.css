@@ -1,0 +1,17 @@
+.displayContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.center {
+  justify-content: center;
+}
+.alignStart {
+  align-items: flex-start;
+}
+.displayContainer .itemContainer {
+  padding: 15px;
+}
+
+.displayContainer .paddingZero {
+  padding: 0;
+}

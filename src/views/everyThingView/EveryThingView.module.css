@@ -1,0 +1,24 @@
+.everyThingView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 30px;
+  max-width: 240px;
+  opacity: 0.8;
+}
+.everyThingView h6 {
+  width: 40px;
+  height: 40px;
+  background-color: var(--bg-4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  opacity: 0.9;
+  color: var(--text-2);
+}
+.everyThingView p {
+  font-size: 12px;
+  margin-top: 16px;
+}

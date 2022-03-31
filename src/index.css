@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+:root {
+  --bg-1: #65818c;
+  --bg-2: #2b5772;
+  --bg-3: #f2dbbc;
+  --bg-4: #9b9b9b;
+  --text-1: #263038;
+  --text-2: #ffffffc9;
+  --text-hover-1: #007093;
+  --text-hover-2: #061b22;
+  --root-fs: 0rem;
+  --fs-small: calc(var(--root-fs) + 0.25rem);
+  --fs-Xsmall: calc(var(--root-fs) + 0.5rem);
+  --fs-medium: calc(var(--root-fs) + 0.75rem);
+  --fs-Xmedium: calc(var(--root-fs) + 1rem);
+  --fs-large: calc(var(--root-fs) + 1.25rem);
+  --fs-Xlarge: calc(var(--root-fs) + 1.5rem);
+  --fs-2Xlarge: calc(var(--root-fs) + 1.75rem);
+  --fw-small: 600;
+  --fw-medium: 700;
+  --fw-large: 800;
+  --shadow-1: #00000029;
+}
+
+@media screen and (min-width: 992px) {
+  :root {
+    --root-fs: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  :root {
+    --root-fs: 1.5rem;
+  }
+}
+body {
+  font-family: "Roboto", system-ui, -apple-system, monospace, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-white {
+  color: white;
+}
+.text-black {
+  color: black;
+}
+
+.op-9 {
+  opacity: 0.9;
+}
+.op-8 {
+  opacity: 0.8;
+}
+.op-7 {
+  opacity: 0.7;
+}
+.op-5 {
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: var(--fs-2Xlarge);
+  font-weight: var(--fw-large);
+}
+h2 {
+  font-size: var(--fs-Xlarge);
+  font-weight: var(--fw-medium);
+}
+h3 {
+  font-size: var(--fs-large);
+  font-weight: var(--fw-medium);
+}
+h4 {
+  font-size: var(--fs-Xmedium);
+  font-weight: var(--fw-medium);
+}
+h5 {
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-small);
+}
+h6 {
+}
+
+.pointerDisable {
+  cursor: not-allowed !important;
+}

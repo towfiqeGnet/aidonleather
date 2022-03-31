@@ -1,0 +1,125 @@
+.footer {
+  background-color: var(--bg-1);
+  padding-top: 50px;
+}
+.footer [class*="col-"] {
+  margin-bottom: 15px;
+}
+.footer .logo img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+.footer p {
+  color: var(--text-2);
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.footer .listGroup li {
+  display: flex;
+  align-items: center;
+  padding: 8px 0px;
+}
+
+.footer .listGroup li > span {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: #ffff;
+  color: var(--text-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.footer .images img {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.footer .subscribe {
+  display: flex;
+  height: 40px;
+  border-radius: 8px;
+}
+.footer .subscribe input {
+  border: 0;
+  padding-left: 10px;
+  font-size: 14px;
+  flex-grow: 1;
+}
+.footer .subscribe input::placeholder {
+  font-family: "Font Awesome 5 Free";
+  background-color: #ffff;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.footer .subscribe input:focus {
+  outline: none;
+}
+
+.footer .subscribe h6 {
+  background: black;
+  opacity: 0.6;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  padding: 0 8px;
+  height: 100%;
+}
+
+.footer p > span {
+  margin-left: 4px;
+  color: #b5bbbc;
+}
+
+.footer .social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.footer .social div {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .social div:nth-child(2) {
+  color: red;
+}
+
+.footer .copyWrite {
+  color: var(--text-2);
+  width: 100%;
+  height: 50px;
+  background-color: #263038;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .copyWrite P {
+  display: flex;
+  align-items: center;
+  font-size: var(--fs-Xsmall);
+}
+
+.footer .copyWrite p > a {
+  text-decoration: none;
+  font-size: var(--fs-Xsmall);
+}
